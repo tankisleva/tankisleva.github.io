@@ -58,7 +58,7 @@
 
   /* ---------- hero + steps ---------- */
   main.welcome {
-    flex: 1; padding: 80px 0 96px;
+    flex: 1; padding: 48px 0 96px;
     background: radial-gradient(60% 50% at 50% 0%, var(--brand-50) 0%, transparent 60%), #fff;
   }
   .hero-block { text-align: center; margin-bottom: 80px; }
@@ -176,14 +176,6 @@
 </head>
 <body>
 
-<header class="site">
-  <div class="wrap nav">
-    <a href="/" class="brand">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAADsOAAA7DgHMtqGDAAAOrElEQVR42u2d+XMUZRrH+yfZH1b/BHV3WfwrrHV/2dUEVMAAYQhJwAhkJgQlxyQzyQByJKuiKAQsFDwgHOq6W+6iBbq6oKBVEI8tDYeAR5WIkpkcMz1X97z7vN3pme7pY64+3j7eqm/t1Lhlxvp++/O+/T5Pv01RBoxIM/rNDj+6byiAgsMB9sBQgD071M5eG/az0R1+NjPkzyGZ2nntyIstaJ1U24u1VqptnBhea5S1VdBjSsqiJwW1qWvLo2rK8FqdQZvVtIrXJpEirekMKAq6FmlJnQUdiLSmggOtmT91dKA5FMljVwe6Y7gDrRryo1NDfpYeDuRQXkqGFxlfjvnbyzKf0cf8ttrM31yh+bzSvFp5RSRK0fC/Jwdb060RH7qDGOOHO9E9wwF0AIwH0xEqNt4w89dWbr628eWZv6Wthqt+tZrxGYnxcvNn1SIoRQ82p14Or0rdY5nxOzag34Phx4b9iOWNr8583ZG/1j7Ir878NBqc1UBzih1sSR4JrUj+zkzUzwGzw4Urvsh405HPOhT5cuPF5vNKISABKImJEDJ8nbCjE90NC7tPC8abaL6Nkb9Zh6te3fyCBpqTY5EVybmGmD/UgR6Bq35a1XxbIb9M8x8lYb4vbTxvPq9wc3Iq3JRapKv5f/Mjv+pc7yHfAuQrm89pJVYyN9CUekKfVb4fDdoO+WuMQH6WQOQXGy9TuDbzA6jdQz7ZyNcwH4V5dVY95xewX8FVT+quniXIL8P8Fv3NDwtqSqLQCprtX5lYWJH529vRXFjwTbkB+U8aifxVpiN/1vwkZ76gUBM9E/aVuWnE3ef70ZiHfKuQn64R+VLzRboQaUC3lUZ/AA04AvmPuRP5agqB+lfQfZrmP9WO7oJCTtxDvt2QX9p82C7G6wFac9sYSrfHdEE+qbt6hCA/Yg7yRcZLdFi9qudnWUvn+zXuKeSYgXwF8zEFmGBTap7S1X+AtNq9h3y9zefV70u8JG/m8LMJxyG/jVDkt5iK/CLzadS3PJHoXoVuF6/8V3vIdyrypeYLCvro5kIA2tlTXruWxYUcQ5FPy7Wcfje/8QNm0l7t3rnIVxKeBjruhwaS4XXoz167lvORr0AA1Oej7wX8o6BXu7eydm8S8ovN59VDwc7fQa9dy/nIVzAfBRvhdhAWgGe9Qg4htXujkS9T4gwOwPce8l2DfImAANcoMHrCa9dyB/JlWkb/igOQ9pBvVbuW2cgXqTEBiqcor12LzNq9YVd93vwEngIQ5dXuyUF+2GjkN9J544P5ALgU+dvXpdHxkSwn/Nnidi2TkC81XxYAt7RrjYQzaGYyh4SBP++B79yAfMUAuA35310qmC8M/B2ZtXt9kS/RMgiAG9u1GEbmP/cdAe1ahiNfbL48AC6p3asNWxVyqjV/WUG9kgC4aJVfOgDORb7YfD4ALqzdawfArsiv3HxZANzSrqUaABcgv1ctAG5q18rJbwK474hp1zIQ+RItjfMBIB35W9dk0N/3M+jMv1l0bA/DfVdLIWfipjwBEz/nakI+HMqAjjyfQf99J4ve2JtBg6217+r1GWX+Ut58LgCkt2s92ZaR3bdf+oKFv1l9IefNF7MSCuDPb+7LVI38TWD2+Bgr+Y3Xx1l8eBNxyBebXwgAwch/ez+jOF9f+QpC0Fb9Xv4rwxk0dobhhD/XYv6lL1nF34hJQBbypeb3cAEgvF3r9Dus6qJNCIFVhRwt8/H48B9ZMsxXML5HLQCk7eodH2GQ1rhcHAKT2rVKmY/H6PMZ4pDfoxUAElf5+Hs852uNzz5gTC/kfHpKO5gXYU2A/396FHKCRpi/hBdlh3YtfIVj3KuNDNzab2o1r3aPV/wZ9e0ELrCRFjKRLzafC4BdCjk4BJdVQsBkEfw7zGvXghM5ub9ZtfkWIl9sfiEANmnXUgvBl2dZ0ws5n3/MKJo/2EyTaf4Subq5ANiskIND8Nn7DIfgbJY3f9va0siH8/bRy9sz6JN3GfTDtyyKT+W4EvDhkUtodO9lNLrvOnp91w20q3+SM7FUu9aWR/kQ4N+Af8u5k0xt5puEfLH5KgFw1ulaW9pS6OTxLIpP5xSRfWhkXCYciINP/wK/J0FU7b5XZ/O7GyQBcN7pWsf2ZNBUNKe5WlcKgKAj+66gvVuilrVrGYF8sfndDTNCAJzVoYu/+8/bjGLRp5IA8LqIXnv2BhpoIqiQU8tVLzJ/NgDOOl0Lm/+/z1hU7igdgNlpYfePkhCYgfygAcgXm88FwGnP3Z/+F4MqGeUGAOvVnT+Tu6tXwVUvDYCDHsrAc36lo5IA4OlgZNOEZbV7PZAvVpdaAOx41Ape7U9O5AwOAEwFsDCMtCRMadcyAvmC8ZweUQiAXY9aOXU8i6oZlQYA68BTN4nc1Sv3qhfMlwXArqdrwXv0VO/zjQjA6L7LsD+QML12rwfyBeMlAbD76Vp4h6/aUU0AsJ4LTtoS+bIAOOF0rU/eY0wPwKvP/WRL5JcZAPOQvyeUQdcv5hCrcuuOGzhxv55WIefHb1nTA3Bk73XNq/7o7jS69bPytIT/W69+w6Kd3UnTkS/WRnkAzD1dCz+WLX5KV23gHb2D0LenVr6tdv6vJQB4HaBm/v5tqbJ2Iadj0IncQut+i9dVpvkbF0sCYH4h5+ju8lfuuPKmVsJlssj0AOAqohryL5wu/wcd2pkybb7Pm79Y0LQQAGtW+bUEQFy7tywAKnN9NQEwC/li82cDYN3pWtvWpcqfAoYyqh07Vk0Baqv8/VsrmQISpiJfbD4fAItP19odSnMPUWgtAnF/vVa71g9XLFgE7vtOc5VfchH4NYN2dtGmI79YlBNO1/r4RNb828CdP5GxsdNQ+VVfOgA2O11r/9a06QF4tidmeu2+1vleokXT6IlFSgGw18sQuXYt3KaNe/zM3AruX258u5YRyMd6YlFBlFMOVHzviHnFoJeHb9oW+WLzCwFwwJuxIvCoVuyWCeXgvVegM2jGktq9HsiXB8AZL0PkhJ/Fy+WMbQjZM3CLmEKO3PzyrnpJAJz2mpQP/5k1LACvPHODKOR3VYF8iRbKAmDnlyHyDRrwZkz01TlG9wC8/sKPqL/RRsgvw/zHpQFwzpn5OAQfvJXVrS0c3/Mrmm9D5IvNf3zhlBAAZ74Z6/BzaTR5q/oHQ/CCD8/5pNTu9UC+2PzZADjoZYgKjZoD8LzeidGMas1B7T4f3+qFmuKWtmsZgXzB+EIAbIZ8/Oj1uZNZ/uHQDF8l3Ly69Ola+PsXN8NzA3CK1/eXWC4QuIqIEY8NH4UGj1ef/QmaNGIc7kut8nERZwyqfvg3ZFIIupIy8DfIR75iAOyCfGz+pS8YxVKx2R26Ywol34ufM/kQdFuwq1ep+Y8/DAGwy2tS8KPXSuYLB0SEV5jXoRtsjKv2IOAQ9PnIRb7YfHkACF3la5kvHBGjerCiAR26vcviHPbVxrgQAoOQv7HGq17QBkkACH0ZIr6lGx/Tvq/HawKzO3TPvqfdiv7NeQamAvKQLxi/IR8Awl+TMrpLu9SLyYBX+mafroXneox7rfHaM0nikL9BKwAkbuzgwxYrMt/EhzJwCMY1QvD+W+ma2rV0Qb6G+fkAkPwyxDf2piswv3zk47698x9lOeHP1e7q4blebYo68kKSOORL9BAEgPQ3Yw2spLmeQcki60Jt5uN+veLDoo++kKp6Y6dv+Qz6+ryUVFe/YeBvGYv8qs1/qCDKDi9DxCE4NpJGH0GlD2/vSlb8VSD/1g35ruCtG2xNhRy84Hvt6SQcTZOGsnSyNvMNRL7Y/M6HJmcD4PA3YxXP9WovjCCtXcsI5IvN5wPgwJchllrlqw3S2rV0Q77E/Mm8+bIADLjkNSmqASCsXcsI5HeqBcBJyC91i1duAEgv5BTv6lVqfueDswFw+puxim/xSgWA1Nq9HsgXjBdEuQH5xbd3aq+OJb12rwfyxeYXAuCwlyGW2tW7Ni5PAP7ODcgXaz0XABcgv/j+fudGmnsyV/yU7jPwnRuQLxi/Xi0ATkK+1q7eQHOCezb/dVAYPjsB+ZWaLwuA4cj32fdARacgP68FvCg3IJ/IDt1F1iBfbD4XgNDKZNreyHdOh64ZyBebv35BNEWBuRNGIt8OZ+aT2q5lBPJ5xTgFFkR/pcDo75yOfGcVckobX475HVjzo9coMPKsFYUcD/lWIF9kPiZAfewMTAH0QQ/59izkVHXV569+UH30JQr66Xs95LsE+WLzQYH5sW4q5EveR3Lt3i5HrRjRrqU38gXj8wGoj95LdXSgOdB7T7sB+d0uQ76W+R31sUTH/WgOhUfIR5900ssQndKupTfyiwJwghJGvy+5ykO+/Qo5lSJfNPdj/K/MByDiQ3eAsQkSa/ce8su56isz3z8/Fm9vuPlbSjzA3ANOeRmiWwo5FSE/f+VDAPDtX/EIrkjO7fclGDcgv8uNyJ81P1AXZfwPTM2jlEafL3HU9chf7Dzk583HV39d7BClNnqb6DvhDNy43V+G6CFfivy86mKJzr/G7qa0Bpgb9mr39ka+ovk8/oNUqYE3B4KN9AWvdk92Iadc5POKwsJv4nykAd1GlTNCS5N/AMMnPeTbHPmC+XXRaf8Dv8yjKhl9yxOLwFjWa9eyMfLB/EDdBAP/7GGqmgGmrvWQb0/k51UXXU/VMuBErLDXrmUv5AsC9IcoPQYY3g5BYL3avXW1+4rMB+y310fXUXoOMHchmDvlIZ9w5NdHJwMPVDnnl7w7WE7fFVwWP+e1a5GJfLjyL7T/ZXIuZeTA95Jgcn/PsnjCQz4pyI8moMDTV/Z9vh5jI9Cgd0nicO/SGcZr17II+TDX++smDq2fH72Tsmp0N079sXvJzEtwSlbcq93r1K5VclcvGscl3fYFBuO+oiA8+OvtPQ3xZgjCuxCIhNeupS/y/fUxbPoJ3Mkja+YgbeC5qHvp9L1dS+I9mA5g+sdg8FUwe6KrYTrttWupmF4fTfvnRycC86NXoXJ3Bl/lYH4P7t41an7/P63k2PGro3S7AAAAAElFTkSuQmCC" alt="Screen Dimmer – Blue Light Filter logo">
-      <span>Screen&nbsp;<em>Dimmer</em></span>
-    </a>
-  </div>
-</header>
 
 <main class="welcome">
   <div class="wrap">
@@ -263,9 +255,6 @@
 <footer class="site">
   <div class="wrap foot">
     <div>&copy; 2026 tankisleva.github.io</div>
-    <div class="links">
-      <a href="#">Privacy Policy</a>
-    </div>
   </div>
 </footer>
 
